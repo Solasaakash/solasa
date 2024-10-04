@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Job Data</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+<body>
+    <h1>Enter Job Data</h1>
+    <form id="jobForm">
+        <label for="title">Title: *</label>
+        <input type="text" id="title" required><br>
+
+        <label for="type">Type: *</label>
+        <select id="type" required>
+            <option value="">Select Type</option>
+            <option value="full-time">Full-Time</option>
+            <option value="part-time">Part-Time</option>
+            <option value="contract">Contract</option>
+        </select><br>
+
+        <label for="department">Department: *</label>
+        <select id="department" required>
+            <option value="">Select Department</option>
+            <option value="hr">HR</option>
+            <option value="engineering">Engineering</option>
+            <option value="marketing">Marketing</option>
+        </select><br>
+
+        <label for="country">Country:*</label>
+        <select id="country" required>
+            <option value="">Select Country</option>
+            <option value="usa">USA</option>
+            <option value="india">india</option>
+            <option value="canada">Canada</option>
+        </select><br>
+
+        <label for="description">Description: *</label>
+        <textarea id="description" required></textarea><br>
+
+        <label for="openingDate">Opening Date: *</label>
+        <input type="date" id="openingDate" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="a.js"></script>
+</body>
+</html>
+
